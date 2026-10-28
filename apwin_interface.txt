@@ -1,0 +1,2081 @@
+Connecting to APWin...
+GetActiveObject failed: (-2147221021, 'Operation unavailable', None, None)
+Connected via Dispatch (new or running instance)
+
+=== Type Library ===
+Type library: 104 type(s)
+
+[AxisConstants] typekind=enum, funcs=0, vars=4, impls=0
+  [var] apbAxisBottom
+  [var] apbAxisTop
+  [var] apbAxisLeft
+  [var] apbAxisRight
+
+[GraphLineColors] typekind=enum, funcs=0, vars=7, impls=0
+  [var] apbCyan
+  [var] apbGreen
+  [var] apbYellow
+  [var] apbRed
+  [var] apbMagenta
+  [var] apbBlue
+  [var] apbGray
+
+[DataStatus] typekind=enum, funcs=0, vars=3, impls=0
+  [var] apbInvalid
+  [var] apbTimeout
+  [var] apbUnregulated
+
+[PSIAVoltageSetting] typekind=enum, funcs=0, vars=5, impls=0
+  [var] PSIA_1_8_CMOS
+  [var] PSIA_2_4_CMOS
+  [var] PSIA_3_3_CMOS
+  [var] PSIA_3_3_TTL
+  [var] PSIA_5_TTL
+
+[PSIAPadJustify] typekind=enum, funcs=0, vars=2, impls=0
+  [var] apbLeft
+  [var] apbRight
+
+[PanelConstants] typekind=enum, funcs=0, vars=37, impls=0
+  [var] apbPanelAnalogGenSmall
+  [var] apbPanelAnalogGenLarge
+  [var] apbPanelAnlrSmall
+  [var] apbPanelAnlrLarge
+  [var] apbPanelDCXSmall
+  [var] apbPanelDCXLarge
+  [var] apbPanelDigIOSmall
+  [var] apbPanelDigIOLarge
+  [var] apbPanelDigitalGenSmall
+  [var] apbPanelDigitalGenLarge
+  [var] apbPanelDigitalAnlrLarge
+  [var] apbPanelDigitalAnlrSmall
+  [var] apbPanelDSPSmall
+  [var] apbPanelDSPLarge
+  [var] apbPanelBitTestSmall
+  [var] apbPanelBitTestLarge
+  [var] apbPanelDIOStatusBitsSmall
+  [var] apbPanelDIOStatusBitsLarge
+  [var] apbPanelRegulation
+  [var] apbPanelRegLong
+  [var] apbPanelSweepSmall
+  [var] apbPanelSweepLarge
+  [var] apbPanelEQ
+  [var] apbPanelBarGraph
+  [var] apbPanelSwitcher
+  [var] apbPanelGraph
+  [var] apbPanelSettling
+  [var] apbPanelDiagnostic
+  [var] apbPanelSpeaker
+  [var] apbPanelDataEditor
+  [var] apbPanelRefInput
+  [var] apbPanelGraphMax
+  [var] apbPanelPSIATx
+  [var] apbEven
+  [var] apbOdd
+  [var] apbAll
+  [var] apbPanelPSIARx
+
+[_Document] typekind=dispinterface, funcs=1, vars=0, impls=1
+  [method] Application()
+
+[Document] typekind=coclass, funcs=0, vars=0, impls=1
+
+[Gen] typekind=dispinterface, funcs=53, vars=14, impls=1
+  [method] RefdBrAuto()
+  [method] RefFreqAuto()
+  [get] Ampl(UnitString)
+  [put] Ampl(UnitString)
+  [get] ChAAmpl(UnitString)
+  [put] ChAAmpl(UnitString)
+  [get] ChBAmpl(UnitString)
+  [put] ChBAmpl(UnitString)
+  [get] Freq(UnitString)
+  [put] Freq(UnitString)
+  [get] IMFreq(UnitString)
+  [put] IMFreq(UnitString)
+  [get] BurstLevel(UnitString)
+  [put] BurstLevel(UnitString)
+  [get] BurstOnTime(UnitString)
+  [put] BurstOnTime(UnitString)
+  [get] BurstInterval(UnitString)
+  [put] BurstInterval(UnitString)
+  [get] RefFreq(UnitString)
+  [put] RefFreq(UnitString)
+  [get] RefdBr(UnitString)
+  [put] RefdBr(UnitString)
+  [get] RefdBm(UnitString)
+  [put] RefdBm(UnitString)
+  [get] RefWatts(UnitString)
+  [put] RefWatts(UnitString)
+  [method] Wfm(Primary, Secondary)
+  [method] WfmGet(Primary, Secondary)
+  [get] IMAmplRatio(UnitString)
+  [put] IMAmplRatio(UnitString)
+  [get] Phase(UnitString)
+  [put] Phase(UnitString)
+  [get] IMHighFreq(UnitString)
+  [put] IMHighFreq(UnitString)
+  [get] IMCenterFreq(UnitString)
+  [put] IMCenterFreq(UnitString)
+  [get] ChBEqAmpl(UnitString)
+  [put] ChBEqAmpl(UnitString)
+  [get] ChAEqAmpl(UnitString)
+  [put] ChAEqAmpl(UnitString)
+  [get] EqAmpl(UnitString)
+  [put] EqAmpl(UnitString)
+  [get] AmplRatio(UnitString)
+  [put] AmplRatio(UnitString)
+  [get] ChBFreq(UnitString)
+  [put] ChBFreq(UnitString)
+  [get] ChAFreq(UnitString)
+  [put] ChAFreq(UnitString)
+  [method] EqCurve(bFileName, nColumn)
+  [get] DualAmplRatio(UnitString)
+  [put] DualAmplRatio(UnitString)
+  [get] EqCurveFilename()
+  [get] EqCurveColumn()
+  [var] Output
+  [var] ChAOutput
+  [var] ChBOutput
+  [var] ChBInvert
+  [var] Config
+  [var] ChAInvert
+  [var] ChBTrackA
+  [var] FreqAccuracy
+  [var] Impedance
+  [var] WfmName
+  [var] MlsLength
+  [var] DACBandwidth
+  [var] DACSampleRate
+  [var] AutoOn
+
+[Anlr] typekind=dispinterface, funcs=56, vars=28, impls=1
+  [method] RefdBrAuto()
+  [method] RefFreqAuto()
+  [method] FuncTrig()
+  [method] FuncSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] LevelTrig()
+  [method] LevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChALevelTrig()
+  [method] ChALevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChBLevelTrig()
+  [method] ChBLevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FreqTrig()
+  [method] FreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChAFreqTrig()
+  [method] ChAFreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChBFreqTrig()
+  [method] ChBFreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] PhaseTrig()
+  [method] PhaseSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [get] RefFreq(UnitString)
+  [put] RefFreq(UnitString)
+  [get] RefChAdBr(UnitString)
+  [put] RefChAdBr(UnitString)
+  [get] RefChBdBr(UnitString)
+  [put] RefChBdBr(UnitString)
+  [get] RefdBm(UnitString)
+  [put] RefdBm(UnitString)
+  [get] RefWatts(UnitString)
+  [put] RefWatts(UnitString)
+  [get] FuncBPBRFreq(UnitString)
+  [put] FuncBPBRFreq(UnitString)
+  [get] ChARange(UnitString)
+  [put] ChARange(UnitString)
+  [get] ChBRange(UnitString)
+  [put] ChBRange(UnitString)
+  [get] FuncRange(UnitString)
+  [put] FuncRange(UnitString)
+  [get] RefdBr(UnitString)
+  [put] RefdBr(UnitString)
+  [get] FuncRdg(UnitString)
+  [put] FuncRdg(UnitString)
+  [get] LevelRdg(UnitString)
+  [put] LevelRdg(UnitString)
+  [get] ChALevelRdg(UnitString)
+  [put] ChALevelRdg(UnitString)
+  [get] ChBLevelRdg(UnitString)
+  [put] ChBLevelRdg(UnitString)
+  [get] FreqRdg(UnitString)
+  [put] FreqRdg(UnitString)
+  [get] ChAFreqRdg(UnitString)
+  [put] ChAFreqRdg(UnitString)
+  [get] ChBFreqRdg(UnitString)
+  [put] ChBFreqRdg(UnitString)
+  [get] PhaseRdg(UnitString)
+  [put] PhaseRdg(UnitString)
+  [get] FuncFilterId()
+  [put] FuncFilterId()
+  [var] FuncMode
+  [var] FuncInput
+  [var] FuncDetector
+  [var] ChAInput
+  [var] ChBInput
+  [var] ChAImpedance
+  [var] ChBImpedance
+  [var] FuncFilter
+  [var] WFFilter
+  [var] WFDetector
+  [var] RdgRate
+  [var] FuncFilterLP
+  [var] FuncFilterHP
+  [var] FuncBPBRTuning
+  [var] ChACoupling
+  [var] ChARangeAuto
+  [var] ChBCoupling
+  [var] ChBRangeAuto
+  [var] PhaseMode
+  [var] FuncRangeAuto
+  [var] FuncReady
+  [var] LevelReady
+  [var] ChALevelReady
+  [var] ChBLevelReady
+  [var] FreqReady
+  [var] ChAFreqReady
+  [var] ChBFreqReady
+  [var] PhaseReady
+
+[Swr] typekind=dispinterface, funcs=0, vars=12, impls=1
+  [var] ChAIn
+  [var] ChBIn
+  [var] ChAOut
+  [var] ChBOut
+  [var] ChAInOut
+  [var] ChBInOut
+  [var] ChABIn
+  [var] ChABInOut
+  [var] ChBOffset
+  [var] OutOffset
+  [var] ChABOut
+  [var] Mode
+
+[ILimit] typekind=dispinterface, funcs=2, vars=0, impls=1
+  [get] Filename()
+  [get] Column()
+
+[IAPSweepData1] typekind=dispinterface, funcs=7, vars=6, impls=1
+  [get] Bottom(Unit)
+  [put] Bottom(Unit)
+  [get] Top(Unit)
+  [put] Top(Unit)
+  [method] Limits(szPathName, nColumn, bUpper)
+  [method] UpperLimit()
+  [method] LowerLimit()
+  [var] Autoscale
+  [var] Color
+  [var] Div
+  [var] AutoDiv
+  [var] LogLin
+  [var] Id
+
+[IAPSweepData2] typekind=dispinterface, funcs=7, vars=6, impls=1
+  [get] Bottom(Unit)
+  [put] Bottom(Unit)
+  [get] Top(Unit)
+  [put] Top(Unit)
+  [method] Limits(szPathName, nColumn, bUpper)
+  [method] UpperLimit()
+  [method] LowerLimit()
+  [var] Autoscale
+  [var] Color
+  [var] Div
+  [var] AutoDiv
+  [var] LogLin
+  [var] Id
+
+[IAPSweepData3] typekind=dispinterface, funcs=3, vars=2, impls=1
+  [method] Limits(szPathName, nColumn, bUpper)
+  [method] UpperLimit()
+  [method] LowerLimit()
+  [var] Color
+  [var] Id
+
+[IAPSweepData4] typekind=dispinterface, funcs=3, vars=2, impls=1
+  [method] Limits(szPathName, nColumn, bUpper)
+  [method] UpperLimit()
+  [method] LowerLimit()
+  [var] Color
+  [var] Id
+
+[IAPSweepData5] typekind=dispinterface, funcs=3, vars=2, impls=1
+  [method] Limits(szPathName, nColumn, bUpper)
+  [method] UpperLimit()
+  [method] LowerLimit()
+  [var] Color
+  [var] Id
+
+[IAPSweepData6] typekind=dispinterface, funcs=3, vars=2, impls=1
+  [method] Limits(szPathName, nColumn, bUpper)
+  [method] UpperLimit()
+  [method] LowerLimit()
+  [var] Color
+  [var] Id
+
+[ISweepTable] typekind=dispinterface, funcs=0, vars=2, impls=1
+  [var] Filename
+  [var] Column
+
+[IAPSweepSource1] typekind=dispinterface, funcs=14, vars=7, impls=1
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [get] Stepsize(Unit)
+  [put] Stepsize(Unit)
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [method] Table(szPathName, nColumn)
+  [get] EndOn(Unit)
+  [put] EndOn(Unit)
+  [get] MinLevel(Unit)
+  [put] MinLevel(Unit)
+  [get] Spacing(Unit)
+  [put] Spacing(Unit)
+  [method] SweepTable()
+  [var] Div
+  [var] AutoDiv
+  [var] LogLin
+  [var] Multiply
+  [var] Id
+  [var] Steps
+  [var] MinLevelID
+
+[IAPSweepSource2] typekind=dispinterface, funcs=6, vars=4, impls=1
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [get] Stepsize(Unit)
+  [put] Stepsize(Unit)
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [var] LogLin
+  [var] Multiply
+  [var] Id
+  [var] Steps
+
+[IAPSweepExternal] typekind=dispinterface, funcs=0, vars=1, impls=1
+  [var] StartOnRule
+
+[Sweep] typekind=dispinterface, funcs=25, vars=9, impls=1
+  [method] Recompare()
+  [method] Retransform()
+  [method] Reprocess()
+  [method] Start()
+  [method] ReverseChannels(bReversed)
+  [method] Data1()
+  [method] Data2()
+  [method] Data3()
+  [method] Data4()
+  [method] Data5()
+  [method] Data6()
+  [method] Source1()
+  [method] Source2()
+  [get] Timeout(Unit)
+  [put] Timeout(Unit)
+  [method] StartWithAppend()
+  [method] StartWithRepeat()
+  [method] CopyData1to2()
+  [method] CopyData2to1()
+  [method] Stop()
+  [method] StartNoWait()
+  [method] IsRunning()
+  [method] Waveform()
+  [method] Spectrum()
+  [method] External()
+  [var] Append
+  [var] Repeat
+  [var] CreateGraph
+  [var] CreateTable
+  [var] SinglePoint
+  [var] GraphType
+  [var] Stereo
+  [var] PreSweepDelay
+  [var] AbortTime
+
+[Data] typekind=dispinterface, funcs=23, vars=0, impls=1
+  [method] Id(Dataname)
+  [method] UpperLimitError(Id)
+  [method] LowerLimitError(Id)
+  [method] LimitError(Id)
+  [method] ColLimitError(Id, Column)
+  [method] ColUpperLimitError(Id, Column)
+  [method] ColLowerLimitError(Id, Column)
+  [method] ColNumOf(Id)
+  [method] ColName(Id, Column)
+  [get] Value(Id, Column, Index, szUnit)
+  [put] Value(Id, Column, Index, szUnit)
+  [get] XferToArray(Id, Column, szUnit)
+  [put] XferToArray(Id, Column, szUnit)
+  [method] UpdateDisplay(Id)
+  [method] ColSize(Id, Column)
+  [method] OptimizeDisplay(Id)
+  [method] ColUnit(Id, Column)
+  [method] InsertRowBefore(Id, RowNum)
+  [method] InsertRowAfter(Id, RowNum)
+  [method] AddRowToEnd(Id)
+  [method] DeleteRow(Id, RowNum)
+  [get] Status(Id, Column, Index, Status)
+  [put] Status(Id, Column, Index, Status)
+
+[Config] typekind=dispinterface, funcs=0, vars=2, impls=1
+  [var] DisplayDataOnTestOpen
+  [var] SetSampleRateOnWfmLoad
+
+[Log] typekind=dispinterface, funcs=5, vars=8, impls=1
+  [method] Clear()
+  [method] AddEntry(Text)
+  [method] View()
+  [method] PrintLogFile()
+  [method] AddEntryWithoutTimeDate(Text)
+  [var] Filename
+  [var] TestName
+  [var] Data
+  [var] Enable
+  [var] GraphTitle
+  [var] FileActivity
+  [var] ErrorMessages
+  [var] PassFailMessages
+
+[Prompt] typekind=dispinterface, funcs=6, vars=3, impls=1
+  [method] Show()
+  [method] Hide()
+  [method] ShowWithContinue()
+  [method] Position(X, Y, CX, CY)
+  [method] IsUp()
+  [method] ShowWithContinueAndStopSweep()
+  [var] Text
+  [var] FontSize
+  [var] Title
+
+[S1Dio] typekind=dispinterface, funcs=2, vars=6, impls=1
+  [method] TransmitSyncRdg()
+  [method] ReceiveSyncRdg()
+  [var] SerialType
+  [var] Resolution
+  [var] Rate
+  [var] OutFormat
+  [var] InFormat
+  [var] DitherType
+
+[IAPComputeNormalize] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [method] Apply()
+  [get] Horizontal(Unit)
+  [put] Horizontal(Unit)
+  [get] Target(Unit)
+  [put] Target(Unit)
+  [get] Data(Source)
+  [put] Data(Source)
+  [method] HorizontalUnit()
+  [method] TargetUnit()
+  [var] PostSweep
+
+[IAPComputeSmooth] typekind=dispinterface, funcs=3, vars=3, impls=1
+  [method] Apply()
+  [get] Data(Source)
+  [put] Data(Source)
+  [var] PostSweep
+  [var] Passes
+  [var] Auto
+
+[IAPComputeClear] typekind=dispinterface, funcs=1, vars=0, impls=1
+  [method] All()
+
+[IAPComputeDelta] typekind=dispinterface, funcs=5, vars=2, impls=1
+  [method] Apply()
+  [get] Data(Source, Column)
+  [put] Data(Source, Column)
+  [method] NewData(Source, Dest, Column)
+  [method] DataColumn(Source)
+  [var] PostSweep
+  [var] Filename
+
+[IAPComputeInvert] typekind=dispinterface, funcs=6, vars=1, impls=1
+  [method] Apply()
+  [get] Horizontal(Unit)
+  [put] Horizontal(Unit)
+  [get] Data(Source)
+  [put] Data(Source)
+  [method] HorizontalUnit()
+  [var] PostSweep
+
+[IAPComputeLinearity] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [method] Apply()
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [get] Data(Source)
+  [put] Data(Source)
+  [method] StartUnit()
+  [method] StopUnit()
+  [var] PostSweep
+
+[IAPComputeMax] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [method] Apply()
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [get] Data(Source)
+  [put] Data(Source)
+  [method] StartUnit()
+  [method] StopUnit()
+  [var] PostSweep
+
+[IAPComputeMin] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [method] Apply()
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [get] Data(Source)
+  [put] Data(Source)
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [method] StartUnit()
+  [method] StopUnit()
+  [var] PostSweep
+
+[IAPComputeSigma] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [method] Apply()
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [get] Data(Source)
+  [put] Data(Source)
+  [method] StartUnit()
+  [method] StopUnit()
+  [var] PostSweep
+
+[IAPComputeStatus] typekind=dispinterface, funcs=2, vars=0, impls=1
+  [method] NumOf()
+  [method] Id(RowNum)
+
+[DGen] typekind=dispinterface, funcs=46, vars=12, impls=1
+  [get] AmplRatio(UnitString)
+  [put] AmplRatio(UnitString)
+  [get] Freq(UnitString)
+  [put] Freq(UnitString)
+  [get] IMFreq(UnitString)
+  [put] IMFreq(UnitString)
+  [get] ChAAmpl(UnitString)
+  [put] ChAAmpl(UnitString)
+  [get] ChAFreq(UnitString)
+  [put] ChAFreq(UnitString)
+  [get] RefdBr(UnitString)
+  [put] RefdBr(UnitString)
+  [get] RefFreq(UnitString)
+  [put] RefFreq(UnitString)
+  [get] RefVFS(UnitString)
+  [put] RefVFS(UnitString)
+  [get] ChBAmpl(UnitString)
+  [put] ChBAmpl(UnitString)
+  [get] ChBFreq(UnitString)
+  [put] ChBFreq(UnitString)
+  [method] Wfm(Primary, Secondary)
+  [get] ChAEqAmpl(UnitString)
+  [put] ChAEqAmpl(UnitString)
+  [get] ChBEqAmpl(UnitString)
+  [put] ChBEqAmpl(UnitString)
+  [get] Phase(UnitString)
+  [put] Phase(UnitString)
+  [get] IMHighFreq(UnitString)
+  [put] IMHighFreq(UnitString)
+  [get] IMCenterFreq(UnitString)
+  [put] IMCenterFreq(UnitString)
+  [get] OffSet(UnitString)
+  [put] OffSet(UnitString)
+  [get] BurstOnTime(UnitString)
+  [put] BurstOnTime(UnitString)
+  [get] BurstInterval(UnitString)
+  [put] BurstInterval(UnitString)
+  [get] BurstLevel(UnitString)
+  [put] BurstLevel(UnitString)
+  [method] EqCurve(bFileName, nColumn)
+  [get] DualAmplRatio(UnitString)
+  [put] DualAmplRatio(UnitString)
+  [get] IMAmplRatio(UnitString)
+  [put] IMAmplRatio(UnitString)
+  [get] EqCurveFilename()
+  [get] EqCurveColumn()
+  [var] ChAInvert
+  [var] ChAOutput
+  [var] Output
+  [var] ChBInvert
+  [var] ChBOutput
+  [var] ChBTrackA
+  [var] WfmName
+  [var] StepRate
+  [var] OutDitherType
+  [var] MlsLength
+  [var] DitherType
+  [var] AutoOn
+
+[Dcx] typekind=dispinterface, funcs=24, vars=17, impls=1
+  [get] DigInRdg(UnitString)
+  [put] DigInRdg(UnitString)
+  [method] DigInSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [get] DmmRdg(UnitString)
+  [put] DmmRdg(UnitString)
+  [method] DmmSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [get] Ch1DcLevel(UnitString)
+  [put] Ch1DcLevel(UnitString)
+  [get] Ch2DcLevel(UnitString)
+  [put] Ch2DcLevel(UnitString)
+  [get] DigOut(UnitString)
+  [put] DigOut(UnitString)
+  [get] PortCOutput(UnitString)
+  [put] PortCOutput(UnitString)
+  [get] PortAOutput(UnitString)
+  [put] PortAOutput(UnitString)
+  [get] PortBOutput(UnitString)
+  [put] PortBOutput(UnitString)
+  [method] DigInTrig()
+  [method] DmmTrig()
+  [get] PortDOutput(UnitString)
+  [put] PortDOutput(UnitString)
+  [get] ProgramControlInputRdg(UnitString)
+  [put] ProgramControlInputRdg(UnitString)
+  [var] Ch1DcOutput
+  [var] Ch2DcOutput
+  [var] DigInFormat
+  [var] DigInReady
+  [var] DigInScale
+  [var] DigOutFormat
+  [var] DigOutScale
+  [var] DmmMode
+  [var] DmmOffset
+  [var] DmmRdgRate
+  [var] DmmScale
+  [var] DmmReady
+  [var] DmmRangeAuto
+  [var] DigInRdgRate
+  [var] DmmRange
+  [var] GateDelay
+  [var] ProgramControlInputReady
+
+[IAPDSPFFT] typekind=dispinterface, funcs=0, vars=0, impls=1
+
+[IAPDSPFFTGen] typekind=dispinterface, funcs=10, vars=17, impls=1
+  [get] Ampl(UnitString)
+  [put] Ampl(UnitString)
+  [get] Freq(UnitString)
+  [put] Freq(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch1Rdg(UnitString)
+  [method] Ch1Trig()
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [method] Ch2Trig()
+  [var] Averages
+  [var] Ch1Source
+  [var] Ch2Source
+  [var] ChAOutput
+  [var] ChBOutput
+  [var] FFTLength
+  [var] InputFormat
+  [var] Output
+  [var] SubtractAve
+  [var] WfmDisplay
+  [var] Window
+  [var] TrigSource
+  [var] WfmName
+  [var] Ch1Ready
+  [var] Ch2Ready
+  [var] Wfm
+  [var] AutoOn
+
+[IAPDSPFFTSlide] typekind=dispinterface, funcs=10, vars=11, impls=1
+  [method] Ch2Trig()
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [method] Ch1Trig()
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] StartTime(UnitString)
+  [get] StartTime(UnitString)
+  [put] PreTrig(UnitString)
+  [get] PreTrig(UnitString)
+  [var] WfmDisplay
+  [var] TrigSource
+  [var] TrigPolarity
+  [var] Window
+  [var] SubtractAve
+  [var] InputFormat
+  [var] FFTLength
+  [var] Ch2Source
+  [var] Ch2Ready
+  [var] Ch1Source
+  [var] Ch1Ready
+
+[IAPDSPAnlr] typekind=dispinterface, funcs=28, vars=23, impls=1
+  [get] ChAFreqRdg(UnitString)
+  [put] ChAFreqRdg(UnitString)
+  [put] ChALevelRdg(UnitString)
+  [get] ChALevelRdg(UnitString)
+  [method] ChAFreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChAFreqTrig()
+  [put] ChBFreqRdg(UnitString)
+  [get] ChBFreqRdg(UnitString)
+  [method] ChALevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChALevelTrig()
+  [put] ChBLevelRdg(UnitString)
+  [get] ChBLevelRdg(UnitString)
+  [method] ChBFreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChBFreqTrig()
+  [method] FuncSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FuncTrig()
+  [put] FuncRdg(UnitString)
+  [get] FuncRdg(UnitString)
+  [get] FuncBPBRFreq(UnitString)
+  [put] FuncBPBRFreq(UnitString)
+  [method] ChBLevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChBLevelTrig()
+  [get] ChARange(UnitString)
+  [put] ChARange(UnitString)
+  [get] ChBRange(UnitString)
+  [put] ChBRange(UnitString)
+  [get] FuncRange(UnitString)
+  [put] FuncRange(UnitString)
+  [var] FuncReady
+  [var] FuncMode
+  [var] FuncInput
+  [var] FuncBPHarmonic
+  [var] FuncBPBRTuning
+  [var] FilterWeighting
+  [var] ChBLevelReady
+  [var] ChBFreqReady
+  [var] ChALevelReady
+  [var] ChAFreqReady
+  [var] RdgRate
+  [var] FilterHP
+  [var] ChACoupling
+  [var] ChARangeAuto
+  [var] ChBCoupling
+  [var] ChBRangeAuto
+  [var] FuncDetector
+  [var] FuncFilter
+  [var] FuncFilterHP
+  [var] FuncFilterLP
+  [var] FuncRangeAuto
+  [var] InputFormat
+  [var] RdgRateV2
+
+[IAPDSPGenAnlr] typekind=dispinterface, funcs=21, vars=14, impls=1
+  [get] FuncBPBRFreq(UnitString)
+  [put] FuncBPBRFreq(UnitString)
+  [get] Ampl(UnitString)
+  [put] Ampl(UnitString)
+  [get] Freq(UnitString)
+  [put] Freq(UnitString)
+  [get] FreqRdg(UnitString)
+  [put] FreqRdg(UnitString)
+  [get] LevelRdg(UnitString)
+  [put] LevelRdg(UnitString)
+  [get] FuncRdg(UnitString)
+  [put] FuncRdg(UnitString)
+  [method] FreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FreqTrig()
+  [method] LevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] LevelTrig()
+  [method] FuncSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FuncTrig()
+  [get] EqAmpl(UnitString)
+  [put] EqAmpl(UnitString)
+  [method] EqCurve(bFileName, nColumn)
+  [var] ChAOutput
+  [var] ChBOutput
+  [var] FuncBPBRTuning
+  [var] FuncBPHarmonic
+  [var] FuncInput
+  [var] Output
+  [var] FreqReady
+  [var] LevelReady
+  [var] FuncReady
+  [var] FuncMode
+  [var] RdgRate
+  [var] FilterHP
+  [var] Wfm
+  [var] AutoOn
+
+[IAPDSPHarmonic] typekind=dispinterface, funcs=12, vars=8, impls=1
+  [get] FilterFreq(UnitString)
+  [put] FilterFreq(UnitString)
+  [get] FreqOffset(UnitString)
+  [put] FreqOffset(UnitString)
+  [method] AmplSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] AmplTrig()
+  [get] AmplRdg(UnitString)
+  [put] AmplRdg(UnitString)
+  [method] FreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FreqTrig()
+  [get] FreqRdg(UnitString)
+  [put] FreqRdg(UnitString)
+  [var] FilterTuningMode
+  [var] FilterTuning
+  [var] FilterType
+  [var] Source
+  [var] RdgRate
+  [var] Value
+  [var] AmplReady
+  [var] FreqReady
+
+[IAPDSPIntervu] typekind=dispinterface, funcs=0, vars=6, impls=1
+  [var] Window
+  [var] TrigSource
+  [var] JitterDetection
+  [var] AmplVsTime
+  [var] AudioMonitor
+  [var] Averages
+
+[IAPDSPMls] typekind=dispinterface, funcs=10, vars=15, impls=1
+  [method] Ch2Trig()
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [method] Ch1Trig()
+  [put] Ampl(UnitString)
+  [get] Ampl(UnitString)
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] TimeDelay(UnitString)
+  [get] TimeDelay(UnitString)
+  [var] Ch2Source
+  [var] Ch1Source
+  [var] Ch2Ready
+  [var] Ch1Ready
+  [var] WindowStop
+  [var] WindowStart
+  [var] WindowETime
+  [var] WfmDisplay
+  [var] TimeDisplay
+  [var] Sequence
+  [var] ChBOutput
+  [var] ChAOutput
+  [var] Output
+  [var] InputFormat
+  [var] AutoOn
+
+[IAPDSPCodec] typekind=dispinterface, funcs=10, vars=16, impls=1
+  [method] Ch1Trig()
+  [method] Ch2Trig()
+  [get] Ampl(UnitString)
+  [put] Ampl(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch1Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [put] Ch2Rdg(UnitString)
+  [get] FreqRes(UnitString)
+  [put] FreqRes(UnitString)
+  [var] Mode
+  [var] ChAOutput
+  [var] ChBOutput
+  [var] FreqCorrection
+  [var] Output
+  [var] Warnings
+  [var] InputFormat
+  [var] Window
+  [var] TrigCriteria
+  [var] TrigSource
+  [var] Ch1Source
+  [var] Ch2Source
+  [var] Ch1Ready
+  [var] Ch2Ready
+  [var] WfmName
+  [var] AutoOn
+
+[IAPS2FFT] typekind=dispinterface, funcs=16, vars=17, impls=1
+  [put] StartTime(UnitString)
+  [get] StartTime(UnitString)
+  [put] PreTrig(UnitString)
+  [get] PreTrig(UnitString)
+  [method] Ch2Trig()
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [method] Ch1Trig()
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] TrigSensitivity(UnitString)
+  [get] TrigSensitivity(UnitString)
+  [put] TrigDelay(UnitString)
+  [get] TrigDelay(UnitString)
+  [put] TrigLevel(UnitString)
+  [get] TrigLevel(UnitString)
+  [var] TrigSource
+  [var] TrigPolarity
+  [var] Window
+  [var] WfmDisplay
+  [var] SubtractAve
+  [var] Length
+  [var] InputFormat
+  [var] Averages
+  [var] AverageType
+  [var] Ch2Ready
+  [var] Ch1Ready
+  [var] Ch1Source
+  [var] Ch2Source
+  [var] DCCoupling
+  [var] SubtractDC
+  [var] TransformLength
+  [var] AcquireLength
+
+[IAPDSPBitTest] typekind=dispinterface, funcs=18, vars=14, impls=1
+  [get] Ampl(UnitString)
+  [put] Ampl(UnitString)
+  [get] ConstantValue(UnitString)
+  [put] ConstantValue(UnitString)
+  [get] Freq(UnitString)
+  [put] Freq(UnitString)
+  [get] ChADataRdg(UnitString)
+  [put] ChADataRdg(UnitString)
+  [method] ChADataTrig()
+  [get] ChAErrRdg(UnitString)
+  [put] ChAErrRdg(UnitString)
+  [method] ChAErrTrig()
+  [get] ChBDataRdg(UnitString)
+  [put] ChBDataRdg(UnitString)
+  [method] ChBDataTrig()
+  [get] ChBErrRdg(UnitString)
+  [put] ChBErrRdg(UnitString)
+  [method] ChBErrTrig()
+  [var] ChAOutput
+  [var] ChBOutput
+  [var] DataInvalid
+  [var] DisplayError
+  [var] FreezeOnError
+  [var] Output
+  [var] Wfm
+  [var] WfmDisplay
+  [var] RdgRate
+  [var] ChADataReady
+  [var] ChAErrReady
+  [var] ChBDataReady
+  [var] ChBErrReady
+  [var] AutoOn
+
+[IAPS2DSPBitTest] typekind=dispinterface, funcs=12, vars=10, impls=1
+  [method] ChADataTrig()
+  [method] ChAErrTrig()
+  [method] ChBDataTrig()
+  [method] ChBErrTrig()
+  [get] ChADataRdg(UnitString)
+  [put] ChADataRdg(UnitString)
+  [get] ChAErrRdg(UnitString)
+  [put] ChAErrRdg(UnitString)
+  [get] ChBDataRdg(UnitString)
+  [put] ChBDataRdg(UnitString)
+  [get] ChBErrRdg(UnitString)
+  [put] ChBErrRdg(UnitString)
+  [var] DisplayError
+  [var] FreezeOnError
+  [var] Wfm
+  [var] WfmDisplay
+  [var] RdgRate
+  [var] ChADataReady
+  [var] ChAErrReady
+  [var] ChBDataReady
+  [var] ChBErrReady
+  [var] SubtractDC
+
+[IAPDSPFastTrig] typekind=dispinterface, funcs=10, vars=16, impls=1
+  [method] Ch2Trig()
+  [method] Ch1Trig()
+  [get] Ch2Rdg(UnitString)
+  [put] Ch2Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch1Rdg(UnitString)
+  [get] Ampl(UnitString)
+  [put] Ampl(UnitString)
+  [get] FreqRes(UnitString)
+  [put] FreqRes(UnitString)
+  [var] TrigSource
+  [var] TrigCriteria
+  [var] Window
+  [var] Warnings
+  [var] Output
+  [var] InputFormat
+  [var] FreqCorrection
+  [var] ChBOutput
+  [var] ChAOutput
+  [var] Ch2Source
+  [var] Ch2Ready
+  [var] Ch1Source
+  [var] Ch1Ready
+  [var] WfmName
+  [var] Mode
+  [var] AutoOn
+
+[IAPDSPS1FastTest] typekind=dispinterface, funcs=10, vars=15, impls=1
+  [method] Ch2Trig()
+  [method] Ch1Trig()
+  [get] Ch2Rdg(UnitString)
+  [put] Ch2Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch1Rdg(UnitString)
+  [get] Ampl(UnitString)
+  [put] Ampl(UnitString)
+  [get] FreqRes(UnitString)
+  [put] FreqRes(UnitString)
+  [var] TrigSource
+  [var] Window
+  [var] Output
+  [var] InputFormat
+  [var] FFTLength
+  [var] ChBOutput
+  [var] ChAOutput
+  [var] Ch2Source
+  [var] Ch2Ready
+  [var] PhaseDisplay
+  [var] Ch1Source
+  [var] Ch1Ready
+  [var] WfmName
+  [var] Mode
+  [var] AutoOn
+
+[IAPDSPFastTest] typekind=dispinterface, funcs=10, vars=10, impls=1
+  [method] Ch1Trig()
+  [method] Ch2Trig()
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [put] TrigDelay(UnitString)
+  [get] TrigDelay(UnitString)
+  [put] FreqRes(UnitString)
+  [get] FreqRes(UnitString)
+  [var] TrigSource
+  [var] Processing
+  [var] InputFormat
+  [var] FFTLength
+  [var] PhaseDisplay
+  [var] Ch1Ready
+  [var] Ch2Ready
+  [var] Mode
+  [var] Ch1Source
+  [var] Ch2Source
+
+[S1Dsp] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [method] FFTGen()
+  [method] FFTSlide()
+  [method] BitTest()
+  [method] Codec()
+  [method] FastTest()
+  [method] GenAnlr()
+  [method] Harmonic()
+  [method] Mls()
+  [method] FastTrig()
+  [var] Program
+
+[IAPComputeAvg] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [method] Apply()
+  [get] Data(Source)
+  [put] Data(Source)
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [method] StartUnit()
+  [method] StopUnit()
+  [var] PostSweep
+
+[IAPComputeCenter] typekind=dispinterface, funcs=9, vars=1, impls=1
+  [get] Start(Unit)
+  [put] Start(Unit)
+  [method] Apply()
+  [get] Stop(Unit)
+  [put] Stop(Unit)
+  [get] Data(Source)
+  [put] Data(Source)
+  [method] StartUnit()
+  [method] StopUnit()
+  [var] PostSweep
+
+[IAPCmpEQ] typekind=dispinterface, funcs=4, vars=2, impls=1
+  [method] Apply()
+  [get] Data(Source, Column)
+  [put] Data(Source, Column)
+  [method] DataColumn(Source)
+  [var] PostSweep
+  [var] Filename
+
+[Compute] typekind=dispinterface, funcs=13, vars=0, impls=1
+  [method] Avg()
+  [method] Center()
+  [method] Delta()
+  [method] Invert()
+  [method] Linearity()
+  [method] Max()
+  [method] Min()
+  [method] Normalize()
+  [method] Sigma()
+  [method] Clear()
+  [method] Smooth()
+  [method] Equalize()
+  [method] Status()
+
+[File] typekind=dispinterface, funcs=17, vars=0, impls=1
+  [method] OpenTest(Filename)
+  [method] OpenData(Filename)
+  [method] OpenMacro(Filename)
+  [method] OpenWfm(Filename, siOption1, siOption2)
+  [method] SaveDataAs(Filename)
+  [method] SaveMacroAs(Filename)
+  [method] SaveTestAs(Filename)
+  [method] SaveWfm(Filename, siOption1, siOption2)
+  [method] ImportDOSS1Test(Filename, bIgnoreAttachedFiles)
+  [method] SaveAll()
+  [method] ImportASCIIData(Filename)
+  [method] ExportASCIIData(Filename)
+  [method] SaveAs(Filename)
+  [method] ExportGraphic(Filename, siType)
+  [method] SaveTest()
+  [method] SaveWfmAs(Filename, siOption1, siOption2)
+  [method] AppendData(Filename)
+
+[Diag] typekind=dispinterface, funcs=0, vars=0, impls=1
+
+[Speaker] typekind=dispinterface, funcs=0, vars=2, impls=1
+  [var] Source
+  [var] Mode
+
+[IAPCons] typekind=dispinterface, funcs=0, vars=9, impls=1
+  [var] Channels
+  [var] AudioMode
+  [var] Category
+  [var] ChNum
+  [var] ClockAccuracy
+  [var] Emphasis
+  [var] SampleFreq
+  [var] SourceNum
+  [var] CopyRight
+
+[IAPPro] typekind=dispinterface, funcs=0, vars=19, impls=1
+  [var] ChMode
+  [var] Emphasis
+  [var] CrcEnable
+  [var] Flag0_5
+  [var] Flag18_21
+  [var] Flag6_13
+  [var] SampleFreq
+  [var] FreqMode
+  [var] RefSignal
+  [var] TimeOfDay
+  [var] UserBits
+  [var] Flag14_17
+  [var] AuxBits
+  [var] Destination
+  [var] Origin
+  [var] WordLength
+  [var] LocalAddressAuto
+  [var] LocalAddress
+  [var] AudioMode
+
+[Bits] typekind=dispinterface, funcs=54, vars=6, impls=1
+  [method] Cons()
+  [method] Pro()
+  [method] ChAStatusXferToArray()
+  [method] ChBStatusXferToArray()
+  [get] ChAAudioModeRdg(String)
+  [get] ChAEmphRdg(String)
+  [get] ChAFreqModeRdg(String)
+  [get] ChASampleFreqRdg(String)
+  [get] ChAChModeRdg(String)
+  [get] ChAUserBitsRdg(String)
+  [get] ChAAuxBitsRdg(String)
+  [get] ChAWordLengthRdg(String)
+  [get] ChARefSignalRdg(String)
+  [get] ChACategoryRdg(String)
+  [get] ChASourceNumRdg(String)
+  [get] ChAChNumRdg(String)
+  [get] ChAClockAccuracyRdg(String)
+  [get] ChACopyrightRdg(String)
+  [get] ChAModeRdg(String)
+  [get] ChBAudioModeRdg(String)
+  [get] ChBEmphRdg(String)
+  [get] ChBFreqModeRdg(String)
+  [get] ChBSampleFreqRdg(String)
+  [get] ChBChModeRdg(String)
+  [get] ChBUserBitsRdg(String)
+  [get] ChBAuxBitsRdg(String)
+  [get] ChBWordLengthRdg(String)
+  [get] ChBRefSignalRdg(String)
+  [get] ChBCategoryRdg(String)
+  [get] ChBSourceNumRdg(String)
+  [get] ChBChNumRdg(String)
+  [get] ChBClockAccuracyRdg(String)
+  [get] ChBCopyrightRdg(String)
+  [get] ChBModeRdg(String)
+  [get] ChAFlag0_5Rdg(String)
+  [get] ChAFlag14_17Rdg(String)
+  [get] ChAFlag18_21Rdg(String)
+  [get] ChAFlag6_13Rdg(String)
+  [get] ChBFlag0_5Rdg(String)
+  [get] ChBFlag14_17Rdg(String)
+  [get] ChBFlag18_21Rdg(String)
+  [get] ChBFlag6_13Rdg(String)
+  [get] ChACrcRdg(String)
+  [get] ChBCrcRdg(String)
+  [get] ChADestinationRdg(String)
+  [get] ChBDestinationRdg(String)
+  [get] ChAOriginRdg(String)
+  [get] ChBOriginRdg(String)
+  [get] ChATimeOfDayRdg(String)
+  [get] ChBTimeOfDayRdg(String)
+  [get] ChALocalAddressRdg(String)
+  [get] ChBLocalAddressRdg(String)
+  [method] ChAStatusXferToString()
+  [method] ChBStatusXferToString()
+  [var] Mode
+  [var] XmitChannel
+  [var] ChAXmitData
+  [var] ChBXmitData
+  [var] ChAXmitStatus
+  [var] ChBXmitStatus
+
+[S2Dio] typekind=dispinterface, funcs=48, vars=28, impls=1
+  [method] VoltageSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] RateSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] JitterSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] DelaySettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChAPeakTrig()
+  [method] VoltageTrig()
+  [method] RateTrig()
+  [method] ChBPeakTrig()
+  [method] JitterTrig()
+  [method] DelayTrig()
+  [put] ChAPeakRdg(UnitString)
+  [get] ChAPeakRdg(UnitString)
+  [put] ChBPeakRdg(UnitString)
+  [get] ChBPeakRdg(UnitString)
+  [put] VoltageRdg(UnitString)
+  [get] VoltageRdg(UnitString)
+  [put] RateRdg(UnitString)
+  [get] RateRdg(UnitString)
+  [get] OutVoltage(UnitString)
+  [put] OutVoltage(UnitString)
+  [get] OutRiseFallTime(UnitString)
+  [put] OutRiseFallTime(UnitString)
+  [get] OutRate(UnitString)
+  [put] OutRate(UnitString)
+  [put] JitterRdg(UnitString)
+  [get] JitterRdg(UnitString)
+  [put] DelayRdg(UnitString)
+  [get] DelayRdg(UnitString)
+  [get] OutNoiseAmpl(UnitString)
+  [put] OutNoiseAmpl(UnitString)
+  [get] OutCMFreq(UnitString)
+  [put] OutCMFreq(UnitString)
+  [get] OutJitterFreq(UnitString)
+  [put] OutJitterFreq(UnitString)
+  [get] OutCMAmpl(UnitString)
+  [put] OutCMAmpl(UnitString)
+  [get] OutJitterAmpl(UnitString)
+  [put] OutJitterAmpl(UnitString)
+  [method] OutJitterEQCurve(bFileName, nColumn)
+  [get] RefRate(UnitString)
+  [put] RefRate(UnitString)
+  [method] FlagInvalidRdg()
+  [method] FlagChAInvalidRdg()
+  [method] FlagChBInvalidRdg()
+  [method] FlagCodingRdg()
+  [method] FlagLockRdg()
+  [method] FlagParityRdg()
+  [method] FlagConfidenceRdg()
+  [var] InJitterBW
+  [var] VoltageReady
+  [var] RateReady
+  [var] OutPreEmp
+  [var] OutJitterType
+  [var] OutFormat
+  [var] OutDitherType
+  [var] InMonitorMode
+  [var] InJitterMode
+  [var] JitterReady
+  [var] InImpedance
+  [var] InFormat
+  [var] InDeEmp
+  [var] DelayReady
+  [var] ChBPeakReady
+  [var] ChAPeakReady
+  [var] OutResolution
+  [var] InJitterDetector
+  [var] InScaleFreq
+  [var] OutNoise
+  [var] OutCM
+  [var] OutCableSim
+  [var] OutSendInvalid
+  [var] InResolution
+  [var] OutRiseFall
+  [var] Bits
+  [var] InBitsDisplay
+  [var] OutScaleFreq
+
+[Sync] typekind=dispinterface, funcs=12, vars=11, impls=1
+  [method] DelaySettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] DelayTrig()
+  [put] DelayRdg(UnitString)
+  [get] DelayRdg(UnitString)
+  [get] OutDelayFromRef(UnitString)
+  [put] OutDelayFromRef(UnitString)
+  [get] Freq(UnitString)
+  [put] Freq(UnitString)
+  [method] FreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FreqTrig()
+  [put] FreqRdg(UnitString)
+  [get] FreqRdg(UnitString)
+  [var] UnLockedRdg
+  [var] OutOfRangeRdg
+  [var] Impedance
+  [var] DelayReady
+  [var] OutDelay
+  [var] Source
+  [var] SourceInput
+  [var] FrameLock
+  [var] FreqReady
+  [var] Invert
+  [var] Jitter
+
+[IAPS2DSPMLS] typekind=dispinterface, funcs=8, vars=11, impls=1
+  [method] Ch1Trig()
+  [method] Ch2Trig()
+  [get] TimeDelay(UnitString)
+  [put] TimeDelay(UnitString)
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [var] TrigSource
+  [var] WindowStop
+  [var] WindowStart
+  [var] WindowETime
+  [var] WfmDisplay
+  [var] TimeDisplay
+  [var] InputFormat
+  [var] Ch2Source
+  [var] Ch2Ready
+  [var] Ch1Source
+  [var] Ch1Ready
+
+[S2Dsp] typekind=dispinterface, funcs=14, vars=1, impls=1
+  [method] FFT()
+  [method] Analyzer()
+  [method] Intervu()
+  [method] FastTest()
+  [method] Mls()
+  [get] RefVFS(UnitString)
+  [put] RefVFS(UnitString)
+  [get] RefFreq(UnitString)
+  [put] RefFreq(UnitString)
+  [get] RefCh2dBr(UnitString)
+  [put] RefCh2dBr(UnitString)
+  [get] RefCh1dBr(UnitString)
+  [put] RefCh1dBr(UnitString)
+  [method] BitTest()
+  [var] Program
+
+[Print] typekind=dispinterface, funcs=3, vars=1, impls=1
+  [method] LoadFromTest()
+  [method] Graph()
+  [method] Data()
+  [var] TrackGraph
+
+[Reg] typekind=dispinterface, funcs=13, vars=7, impls=1
+  [put] SourceLow(UnitString)
+  [get] SourceLow(UnitString)
+  [get] SourceHigh(UnitString)
+  [put] SourceHigh(UnitString)
+  [get] SourceStepSize(UnitString)
+  [put] SourceStepSize(UnitString)
+  [get] TargetValue(UnitString)
+  [put] TargetValue(UnitString)
+  [get] TargetTolerance(UnitString)
+  [put] TargetTolerance(UnitString)
+  [method] IsRunning()
+  [method] StartNoWait(bStart)
+  [method] Start()
+  [var] SourceID
+  [var] TargetID
+  [var] SweepEnable
+  [var] SourceOperation
+  [var] TargetToleranceMode
+  [var] SourceIteration
+  [var] Timeout
+
+[BarGraph] typekind=dispinterface, funcs=30, vars=0, impls=1
+  [put] Id(BarId)
+  [get] Id(BarId)
+  [put] DigitsOnly(BarId)
+  [get] DigitsOnly(BarId)
+  [method] Reset(BarId)
+  [put] TargetRange(BarId)
+  [get] TargetRange(BarId)
+  [put] TargetLower(BarId, UnitString)
+  [get] TargetLower(BarId, UnitString)
+  [put] TargetUpper(BarId, UnitString)
+  [get] TargetUpper(BarId, UnitString)
+  [put] AxisLeft(BarId, UnitString)
+  [get] AxisLeft(BarId, UnitString)
+  [put] AxisRight(BarId, UnitString)
+  [get] AxisRight(BarId, UnitString)
+  [put] AxisAutoScale(BarId)
+  [get] AxisAutoScale(BarId)
+  [put] AxisLogLin(BarId)
+  [get] AxisLogLin(BarId)
+  [method] Max(BarId)
+  [method] Min(BarId)
+  [put] AxisIncrement(BarId, UnitString)
+  [get] AxisIncrement(BarId, UnitString)
+  [method] New(ConId)
+  [put] Title(BarId)
+  [get] Title(BarId)
+  [put] Comment(BarId)
+  [get] Comment(BarId)
+  [put] CommentShow(BarId)
+  [get] CommentShow(BarId)
+
+[IAPGraphLegendObj] typekind=dispinterface, funcs=8, vars=0, impls=1
+  [put] Comment(iSweepId, iTraceId)
+  [get] Comment(iSweepId, iTraceId)
+  [put] LineColor(iSweepId, iTraceId)
+  [get] LineColor(iSweepId, iTraceId)
+  [put] LineThickness(iSweepId, iTraceId)
+  [get] LineThickness(iSweepId, iTraceId)
+  [put] LineStyle(iSweepId, iTraceId)
+  [get] LineStyle(iSweepId, iTraceId)
+
+[Graph] typekind=dispinterface, funcs=26, vars=7, impls=1
+  [get] CursorPosition(intCursorNum, strUnit)
+  [put] CursorPosition(intCursorNum, strUnit)
+  [get] CursorRow(intCursorNum)
+  [get] CursorValue(intCursorNum, strUnit)
+  [method] CursorsOn(bOn)
+  [method] OptimizeIndividually()
+  [method] OptimizeLeft()
+  [method] OptimizeRight()
+  [method] OptimizeTogether()
+  [method] CopyToSweepPanel()
+  [method] ZoomOut()
+  [method] ZoomOriginal()
+  [method] RefDataStore()
+  [method] RefDataClear()
+  [get] LabelAuto(AxisId)
+  [put] LabelAuto(AxisId)
+  [get] Label(AxisId)
+  [put] Label(AxisId)
+  [method] Sweeps()
+  [method] SweepsTrace()
+  [put] TraceShow(iSweepId, iTraceId)
+  [get] TraceShow(iSweepId, iTraceId)
+  [method] Legend()
+  [put] SweepShow(iSweepId)
+  [get] SweepShow(iSweepId)
+  [method] AddComment(Comment)
+  [var] Comment
+  [var] CommentShow
+  [var] ScrollBarsOn
+  [var] RefDataShow
+  [var] Title
+  [var] CompanyNameShow
+  [var] TimeDateShow
+
+[IAPCommObj] typekind=dispinterface, funcs=0, vars=27, impls=1
+  [var] CDHolding
+  [var] CommID
+  [var] CommPort
+  [var] CTSHolding
+  [var] CTSTimeout
+  [var] DSRHolding
+  [var] DSRTimeout
+  [var] DTREnable
+  [var] Handshaking
+  [var] InBufferSize
+  [var] InBufferCount
+  [var] Break
+  [var] InputLen
+  [var] Interval
+  [var] NullDiscard
+  [var] OutBufferSize
+  [var] OutBufferCount
+  [var] ParityReplace
+  [var] PortOpen
+  [var] RThreshold
+  [var] RTSEnable
+  [var] Settings
+  [var] SThreshold
+  [var] Output
+  [var] Input
+  [var] CommEvent
+  [var] CDTimeout
+
+[IAPS2CDSPFFT] typekind=dispinterface, funcs=16, vars=17, impls=1
+  [put] StartTime(UnitString)
+  [get] StartTime(UnitString)
+  [put] PreTrig(UnitString)
+  [get] PreTrig(UnitString)
+  [method] Ch2Trig()
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [method] Ch1Trig()
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] TrigSensitivity(UnitString)
+  [get] TrigSensitivity(UnitString)
+  [put] TrigDelay(UnitString)
+  [get] TrigDelay(UnitString)
+  [put] TrigLevel(UnitString)
+  [get] TrigLevel(UnitString)
+  [var] TrigSource
+  [var] TrigPolarity
+  [var] Window
+  [var] WfmDisplay
+  [var] SubtractAve
+  [var] TransformLength
+  [var] InputFormat
+  [var] Averages
+  [var] AverageType
+  [var] Ch2Ready
+  [var] Ch1Ready
+  [var] Ch1Source
+  [var] Ch2Source
+  [var] DCCoupling
+  [var] SubtractDC
+  [var] AcquireLength
+  [var] Smoothing
+
+[IAPS2CDSPAnlr] typekind=dispinterface, funcs=38, vars=24, impls=1
+  [get] ChAFreqRdg(UnitString)
+  [put] ChAFreqRdg(UnitString)
+  [put] ChALevelRdg(UnitString)
+  [get] ChALevelRdg(UnitString)
+  [method] ChAFreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChAFreqTrig()
+  [put] ChBFreqRdg(UnitString)
+  [get] ChBFreqRdg(UnitString)
+  [method] ChALevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChALevelTrig()
+  [put] ChBLevelRdg(UnitString)
+  [get] ChBLevelRdg(UnitString)
+  [method] ChBFreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChBFreqTrig()
+  [method] FuncChASettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FuncChATrig()
+  [put] FuncChARdg(UnitString)
+  [get] FuncChARdg(UnitString)
+  [get] FuncBPBRFreq(UnitString)
+  [put] FuncBPBRFreq(UnitString)
+  [method] ChBLevelSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChBLevelTrig()
+  [get] ChARange(UnitString)
+  [put] ChARange(UnitString)
+  [get] ChBRange(UnitString)
+  [put] ChBRange(UnitString)
+  [get] FuncChARange(UnitString)
+  [put] FuncChARange(UnitString)
+  [get] FuncChBRange(UnitString)
+  [put] FuncChBRange(UnitString)
+  [method] FuncChBSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] FuncChBTrig()
+  [put] FuncChBRdg(UnitString)
+  [get] FuncChBRdg(UnitString)
+  [method] FuncFilterHPUserDefined(Filename)
+  [method] FuncFilterLPUserDefined(Filename)
+  [method] FuncFilterWeightingUserDefined(Filename)
+  [method] FuncFilterId()
+  [var] FuncChAReady
+  [var] FuncMode
+  [var] FuncBPHarmonic
+  [var] FuncBPBRTuning
+  [var] FilterWeighting
+  [var] ChBLevelReady
+  [var] ChBFreqReady
+  [var] ChALevelReady
+  [var] ChAFreqReady
+  [var] RdgRate
+  [var] FilterHP
+  [var] ChACoupling
+  [var] ChARangeAuto
+  [var] ChBCoupling
+  [var] ChBRangeAuto
+  [var] FuncDetector
+  [var] FuncFilter
+  [var] FuncFilterHP
+  [var] FuncFilterLP
+  [var] FuncChARangeAuto
+  [var] InputFormat
+  [var] FuncChBRangeAuto
+  [var] FuncChBReady
+  [var] FuncPhaseMode
+
+[IAPS2CDSPIntervu] typekind=dispinterface, funcs=0, vars=12, impls=1
+  [var] AudioMonitor
+  [var] Averages
+  [var] Window
+  [var] TrigSource
+  [var] JitterDetection
+  [var] AmplVsTime
+  [var] TrigPolarity
+  [var] AcquisitionPosition
+  [var] TrigErrorConfidence
+  [var] TrigErrorLock
+  [var] TrigErrorCoding
+  [var] TrigErrorParity
+
+[IAPS2CDSPFastTest] typekind=dispinterface, funcs=10, vars=10, impls=1
+  [method] Ch1Trig()
+  [method] Ch2Trig()
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [put] TrigDelay(UnitString)
+  [get] TrigDelay(UnitString)
+  [put] FreqRes(UnitString)
+  [get] FreqRes(UnitString)
+  [var] TrigSource
+  [var] Processing
+  [var] InputFormat
+  [var] FFTLength
+  [var] PhaseDisplay
+  [var] Ch1Ready
+  [var] Ch2Ready
+  [var] Mode
+  [var] Ch1Source
+  [var] Ch2Source
+
+[IAPS2CDSPMLS] typekind=dispinterface, funcs=8, vars=13, impls=1
+  [method] Ch1Trig()
+  [method] Ch2Trig()
+  [get] TimeDelay(UnitString)
+  [put] TimeDelay(UnitString)
+  [put] Ch1Rdg(UnitString)
+  [get] Ch1Rdg(UnitString)
+  [put] Ch2Rdg(UnitString)
+  [get] Ch2Rdg(UnitString)
+  [var] TrigSource
+  [var] WindowStop
+  [var] WindowStart
+  [var] WindowETime
+  [var] WfmDisplay
+  [var] TimeDisplay
+  [var] InputFormat
+  [var] Ch2Source
+  [var] Ch2Ready
+  [var] Ch1Source
+  [var] Ch1Ready
+  [var] Averages
+  [var] Smoothing
+
+[IAPS2CDSPBitTest] typekind=dispinterface, funcs=12, vars=8, impls=1
+  [method] ChADataTrig()
+  [method] ChAErrTrig()
+  [method] ChBDataTrig()
+  [method] ChBErrTrig()
+  [get] ChADataRdg(UnitString)
+  [put] ChADataRdg(UnitString)
+  [get] ChAErrRdg(UnitString)
+  [put] ChAErrRdg(UnitString)
+  [get] ChBDataRdg(UnitString)
+  [put] ChBDataRdg(UnitString)
+  [get] ChBErrRdg(UnitString)
+  [put] ChBErrRdg(UnitString)
+  [var] FreezeOnError
+  [var] DisplayError
+  [var] Wfm
+  [var] RdgRate
+  [var] ChADataReady
+  [var] ChBDataReady
+  [var] ChAErrReady
+  [var] ChBErrReady
+
+[S2CDio] typekind=dispinterface, funcs=48, vars=33, impls=1
+  [method] VoltageSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] RateSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] JitterSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] DelaySettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] ChAPeakTrig()
+  [method] VoltageTrig()
+  [method] RateTrig()
+  [method] ChBPeakTrig()
+  [method] JitterTrig()
+  [method] DelayTrig()
+  [put] ChAPeakRdg(UnitString)
+  [get] ChAPeakRdg(UnitString)
+  [put] ChBPeakRdg(UnitString)
+  [get] ChBPeakRdg(UnitString)
+  [put] VoltageRdg(UnitString)
+  [get] VoltageRdg(UnitString)
+  [put] RateRdg(UnitString)
+  [get] RateRdg(UnitString)
+  [get] OutVoltage(UnitString)
+  [put] OutVoltage(UnitString)
+  [get] OutRiseFallTime(UnitString)
+  [put] OutRiseFallTime(UnitString)
+  [get] OutRate(UnitString)
+  [put] OutRate(UnitString)
+  [put] JitterRdg(UnitString)
+  [get] JitterRdg(UnitString)
+  [put] DelayRdg(UnitString)
+  [get] DelayRdg(UnitString)
+  [get] OutNoiseAmpl(UnitString)
+  [put] OutNoiseAmpl(UnitString)
+  [get] OutCMFreq(UnitString)
+  [put] OutCMFreq(UnitString)
+  [get] OutJitterFreq(UnitString)
+  [put] OutJitterFreq(UnitString)
+  [get] OutCMAmpl(UnitString)
+  [put] OutCMAmpl(UnitString)
+  [get] OutJitterAmpl(UnitString)
+  [put] OutJitterAmpl(UnitString)
+  [method] OutJitterEQCurve(bFileName, nColumn)
+  [get] RefRate(UnitString)
+  [put] RefRate(UnitString)
+  [method] FlagInvalidRdg()
+  [method] FlagChAInvalidRdg()
+  [method] FlagChBInvalidRdg()
+  [method] FlagCodingRdg()
+  [method] FlagLockRdg()
+  [method] FlagParityRdg()
+  [method] FlagConfidenceRdg()
+  [var] InJitterBW
+  [var] VoltageReady
+  [var] RateReady
+  [var] OutPreEmp
+  [var] OutJitterType
+  [var] OutFormat
+  [var] OutDitherType
+  [var] InMonitorMode
+  [var] InJitterMode
+  [var] JitterReady
+  [var] InImpedance
+  [var] InFormat
+  [var] InDeEmp
+  [var] DelayReady
+  [var] ChBPeakReady
+  [var] ChAPeakReady
+  [var] OutResolution
+  [var] InJitterDetector
+  [var] InScaleFreq
+  [var] OutNoise
+  [var] OutCM
+  [var] OutCableSim
+  [var] OutSendInvalid
+  [var] InResolution
+  [var] OutRiseFall
+  [var] Bits
+  [var] OutInvert
+  [var] OutParityError
+  [var] InInput
+  [var] InBitsDisplay
+  [var] OutScaleFreq
+  [var] InDecode
+  [var] OutEncode
+
+[IAPS2CDSPHARMONIC] typekind=dispinterface, funcs=34, vars=21, impls=1
+  [method] Ch1FreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch1FreqTrig()
+  [put] Ch1FreqRdg(UnitString)
+  [get] Ch1FreqRdg(UnitString)
+  [method] Ch1FundSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch1FundTrig()
+  [put] Ch1FundRdg(UnitString)
+  [get] Ch1FundRdg(UnitString)
+  [method] Ch1Sum1Settling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch1Sum1Trig()
+  [put] Ch1Sum1Rdg(UnitString)
+  [get] Ch1Sum1Rdg(UnitString)
+  [method] Ch1Sum2Settling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch1Sum2Trig()
+  [put] Ch1Sum2Rdg(UnitString)
+  [get] Ch1Sum2Rdg(UnitString)
+  [method] Ch2FreqSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch2FreqTrig()
+  [put] Ch2FreqRdg(UnitString)
+  [get] Ch2FreqRdg(UnitString)
+  [method] Ch2FundSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch2FundTrig()
+  [put] Ch2FundRdg(UnitString)
+  [get] Ch2FundRdg(UnitString)
+  [method] Ch2Sum1Settling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch2Sum1Trig()
+  [put] Ch2Sum1Rdg(UnitString)
+  [get] Ch2Sum1Rdg(UnitString)
+  [method] Ch2Sum2Settling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [method] Ch2Sum2Trig()
+  [put] Ch2Sum2Rdg(UnitString)
+  [get] Ch2Sum2Rdg(UnitString)
+  [put] Freq(UnitString)
+  [get] Freq(UnitString)
+  [var] Ch1FreqReady
+  [var] Ch1FundReady
+  [var] Ch1Sum1Ready
+  [var] Ch1Sum2Ready
+  [var] Ch2FreqReady
+  [var] Ch2FundReady
+  [var] Ch2Sum1Ready
+  [var] Ch2Sum2Ready
+  [var] Ch1Source
+  [var] Ch2Source
+  [var] Ch1Sum1RelUnits
+  [var] Ch1Sum2RelUnits
+  [var] Ch2Sum1RelUnits
+  [var] Ch2Sum2RelUnits
+  [var] InputFormat
+  [var] Selectivity
+  [var] Tuning
+  [var] Ch1Sum1Harmonics
+  [var] Ch1Sum2Harmonics
+  [var] Ch2Sum1Harmonics
+  [var] Ch2Sum2Harmonics
+
+[S2CDsp] typekind=dispinterface, funcs=15, vars=1, impls=1
+  [method] FFT()
+  [method] Analyzer()
+  [method] Intervu()
+  [method] FastTest()
+  [method] Mls()
+  [method] BitTest()
+  [method] Harmonic()
+  [get] RefVFS(UnitString)
+  [put] RefVFS(UnitString)
+  [get] RefFreq(UnitString)
+  [put] RefFreq(UnitString)
+  [get] RefCh2dBr(UnitString)
+  [put] RefCh2dBr(UnitString)
+  [get] RefCh1dBr(UnitString)
+  [put] RefCh1dBr(UnitString)
+  [var] Program
+
+[Macro] typekind=dispinterface, funcs=3, vars=0, impls=1
+  [method] IsRunning()
+  [method] MacroDir()
+  [method] Name()
+
+[IPSIANfsClk] typekind=dispinterface, funcs=0, vars=2, impls=1
+  [var] InvWfm
+  [var] Factor
+
+[IPSIAMasterClk] typekind=dispinterface, funcs=0, vars=1, impls=1
+  [var] Factor
+
+[IPSIABitClk] typekind=dispinterface, funcs=0, vars=2, impls=1
+  [var] Dir
+  [var] Factor
+
+[IPSIAChannelClk] typekind=dispinterface, funcs=0, vars=4, impls=1
+  [var] EdgeSync
+  [var] InvWfm
+  [var] BitWidePulse
+  [var] Factor
+
+[IPSIAFrameClk] typekind=dispinterface, funcs=2, vars=5, impls=1
+  [get] Rate(UnitString)
+  [put] Rate(UnitString)
+  [var] Dir
+  [var] EdgeSync
+  [var] InvWfm
+  [var] ShiftOneBitLeft
+  [var] BitWidePulse
+
+[IPSIARxChData] typekind=dispinterface, funcs=1, vars=5, impls=1
+  [method] Justify(newValue)
+  [var] ChannelA
+  [var] ChannelB
+  [var] EdgeSync
+  [var] MSBFirst
+  [var] PadBits
+
+[IPSIAChData] typekind=dispinterface, funcs=1, vars=7, impls=1
+  [method] Justify(newValue)
+  [var] ChannelA
+  [var] ChannelB
+  [var] EdgeSync
+  [var] MSBFirst
+  [var] PadBits
+  [var] PrePadType
+  [var] PostPadType
+
+[IPSIARx] typekind=dispinterface, funcs=7, vars=0, impls=1
+  [method] Data()
+  [method] FrameClk()
+  [method] ChannelClk()
+  [method] BitClk()
+  [method] MasterClk()
+  [method] NFsClk()
+  [method] I2S()
+
+[IPSIATx] typekind=dispinterface, funcs=8, vars=0, impls=1
+  [method] Data()
+  [method] FrameClk()
+  [method] ChannelClk()
+  [method] BitClk()
+  [method] MasterClk()
+  [method] NFsClk()
+  [method] LoopBack()
+  [method] I2S()
+
+[PSIA] typekind=dispinterface, funcs=2, vars=3, impls=1
+  [method] Tx()
+  [method] Rx()
+  [var] VoltageSetting
+  [var] OutputsOn
+  [var] MasterClkDir
+
+[Aux] typekind=dispinterface, funcs=28, vars=4, impls=1
+  [get] Setting1()
+  [put] Setting1()
+  [get] Setting2()
+  [put] Setting2()
+  [get] Setting3()
+  [put] Setting3()
+  [get] Setting4()
+  [put] Setting4()
+  [method] Reading1Trig()
+  [method] Reading1Settling(Tolerance, Floor, Points, Delay, Algorithm)
+  [get] Reading1Rdg()
+  [put] Reading1Rdg()
+  [method] SetReading1(Value)
+  [method] Reading2Trig()
+  [method] Reading2Settling(Tolerance, Floor, Points, Delay, Algorithm)
+  [get] Reading2Rdg()
+  [put] Reading2Rdg()
+  [method] SetReading2(Value)
+  [method] Reading3Trig()
+  [method] Reading3Settling(Tolerance, Floor, Points, Delay, Algorithm)
+  [get] Reading3Rdg()
+  [put] Reading3Rdg()
+  [method] SetReading3(Value)
+  [method] Reading4Trig()
+  [method] Reading4Settling(Tolerance, Floor, Points, Delay, Algorithm)
+  [get] Reading4Rdg()
+  [put] Reading4Rdg()
+  [method] SetReading4(Value)
+  [var] Reading1Ready
+  [var] Reading2Ready
+  [var] Reading3Ready
+  [var] Reading4Ready
+
+[_Events] typekind=dispinterface, funcs=0, vars=0, impls=1
+
+[_EventsEvents] typekind=dispinterface, funcs=15, vars=0, impls=1
+  [method] OnError(ErrorCode)
+  [method] OnSweepStart()
+  [method] OnSweepNestStart(Source)
+  [method] OnSweepStep(Value, Source)
+  [method] OnSweepTrigger()
+  [method] OnSweepStepEnd()
+  [method] OnSweepNestEnd()
+  [method] OnSweepEnd()
+  [method] OnSweepReverseChannels(Reverse)
+  [method] OnDcxProgramControlInput(KeyValue)
+  [method] OnWatchDogTimeout(Id)
+  [method] OnAuxSetting1(Value)
+  [method] OnAuxSetting2(Value)
+  [method] OnAuxSetting3(Value)
+  [method] OnAuxSetting4(Value)
+
+[Events] typekind=coclass, funcs=0, vars=0, impls=2
+
+[Application] typekind=dispinterface, funcs=28, vars=13, impls=1
+  [method] Input(PortAddress)
+  [method] NewData()
+  [method] NewMacro()
+  [method] NewTest()
+  [method] Output(PortAddress, DataByte)
+  [method] Quit()
+  [method] Restore()
+  [method] TestDir()
+  [method] TestName()
+  [method] SysType()
+  [method] MacroEditorVisible(bVisible)
+  [method] PanelOpen(PanelID)
+  [method] CopyPanelToClipboard()
+  [method] PanelToolbarVisible(bVisible)
+  [method] PanelClose(PanelID)
+  [method] AppDir()
+  [method] MacroDir()
+  [method] PanelPosition(wPanelID, X, Y, CX, CY)
+  [method] Name()
+  [method] Version()
+  [method] IsDemoMode()
+  [method] VisibleMacroEditor(bVisible)
+  [method] ClearCurrentError()
+  [method] GetCurrentErrorString()
+  [method] DisplayCurrentError()
+  [method] SetWatchDogTimer1(Sec, ThrowError)
+  [method] SetWatchDogTimer2(Sec, ThrowError)
+  [method] DoReadings()
+  [var] Visible
+  [var] Page
+  [var] DisplayDataOnTestOpen
+  [var] VisiblePanels
+  [var] VisibleBarGraphs
+  [var] VisibleDataEditor
+  [var] VisibleGraph
+  [var] VisibleToolBars
+  [var] VisibleAll
+  [var] WorkingDir
+  [var] SuppressErrorMessages
+  [var] SuppressFileVersionErrorMessages
+  [var] ThrowErrors
+
+[SpeedTest] typekind=dispinterface, funcs=5, vars=0, impls=1
+  [method] DSPTime()
+  [method] WaveformTime()
+  [method] SweepTime()
+  [method] LoadTime()
+  [method] Clear()
+
+[_Global] typekind=dispinterface, funcs=51, vars=0, impls=1
+  [method] Gen()
+  [method] Data()
+  [method] Sweep()
+  [method] Swr()
+  [method] Anlr()
+  [method] Log()
+  [method] Prompt()
+  [method] DGen()
+  [method] Dcx()
+  [method] S1Dsp()
+  [method] Compute()
+  [method] File()
+  [method] App()
+  [method] Application()
+  [method] Speaker()
+  [method] Bits()
+  [method] S2Dsp()
+  [method] Sync()
+  [method] S1Dio()
+  [method] S2Dio()
+  [method] Print()
+  [method] Reg()
+  [method] CommA()
+  [method] CommB()
+  [method] NewPanel(dx, dy)
+  [method] AddControl(Index, l, t, r, b, Instrument, Element, Terminal, ControlID)
+  [method] CreateOlePanel(Index)
+  [method] GetEnumList()
+  [method] Quit()
+  [method] Config()
+  [method] ReadingTrig(ElementId)
+  [method] ReadingSettling(Tolerance, Floor, UnitString, Points, Delay, Algorithm)
+  [put] Setting(ElementId, UnitString, TerminalId)
+  [get] Setting(ElementId, UnitString, TerminalId)
+  [get] Reading(ElementId, UnitString)
+  [put] Reading(ElementId, UnitString)
+  [get] ReadingReady(ElementId)
+  [put] ReadingReady(ElementId)
+  [get] ReadingNow(ElementId, UnitString)
+  [put] ReadingNow(ElementId, UnitString)
+  [method] BarGraph()
+  [method] Macro()
+  [method] Graph()
+  [put] Unit(ElementId, TerminalId)
+  [get] Unit(ElementId, TerminalId)
+  [method] S2CDsp()
+  [method] S2CDio()
+  [method] PSIA()
+  [method] Aux()
+  [method] Events()
+  [method] SpeedTest()
+
+[Global] typekind=coclass, funcs=0, vars=0, impls=1
+
+
+--- Probing live properties ---
+  Graph = <bound method Graph of <COMObject APWIN.Application>>
+  Application = <bound method Application of <COMObject APWIN.Application>>

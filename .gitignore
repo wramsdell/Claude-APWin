@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# Script output files
+set_gen.txt
+run_sweep.txt
+check.txt
+inspect_typelib.txt
